@@ -1,0 +1,19 @@
+.my-navbar
+{
+	background-color:#636;
+	color: white;
+	border:2px solid #D4D4D4;
+    border-radius:4px,4px,4px,4px;
+    padding-left:20px;
+    padding-right:20px;
+
+
+}
+.nav.navbar-nav li a
+{
+	color:white;
+}
+#textcolor
+{
+	color:white;
+}
