@@ -1,16 +1,11 @@
-@extends('layouts.app')
-
+@extends('main')
 
 @section('content')
-<div class = "imgstyle" > </div>
-    
-
-
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
+                <div class="panel-heading">User Login</div>
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
@@ -71,5 +66,4 @@
         </div>
     </div>
 </div>
-
 @endsection

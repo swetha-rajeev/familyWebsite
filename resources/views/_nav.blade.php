@@ -25,8 +25,28 @@
         <a href="#" class="nav-link" id="textcolor">Bio</a>
       </li>
     </ul>
-    <a href="#" class="nav-item navbar-right">Login </a>
-    <!--
+    <!-- Login Section -->
+    @if(Auth::check())
+    
+       <!--<a href="#" class="nav-item navbar-right">Hi Swetha </a>-->
+        <div class="dropdown mydropdown">
+         <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Hi Swetha
+              <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                     <li><a href="#">Posts</a></li>
+                      <li><a href="#">Photos</a></li>
+                       <li><a href="#">Videos</a></li>
+                       <li><a href="#">Logout</a></li>
+                   </ul>
+            </div>
+    @else
+    
+      <a href="{{ url('/login') }}" class="nav-item navbar-right" id="textcolor">Login </a>
+    
+    @endif
+
+     <!--
+    }
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>

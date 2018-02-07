@@ -9,11 +9,54 @@
 
 
 }
-.nav.navbar-nav li a
+
+.dropdown-menu
 {
-	color:white;
+  background-color:#636;
 }
+
+.dropdown-menu a{
+	
+    color: #FFFFFF;
+}
+
+
 #textcolor
 {
 	color:white;
+}
+.my-jumbotron
+{
+
+	height:42vh;
+	background-color-:#636;
+	background-image:url("/images/family.jpg");
+	background-size:cover;
+	-webkit-background-size: cover;
+	background-position:center;
+	background-repeat:no-repeat;
+
+
+	
+}
+.mydropdown
+{
+	background-color:#636;
+	color:white;
+
+}
+.imgstyle
+{
+
+	background:url("/images/sunrise.jpg");
+	background-sixe:cover;
+	-webkit-background-size: cover;
+	background-position:center;
+	background-repeat:no-repeat;
+    opacity :0.8;
+
+	left:0;
+	right:0;
+	
+	
 }

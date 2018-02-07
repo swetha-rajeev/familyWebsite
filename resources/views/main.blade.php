@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
     <title>Family Site @yield('title')</title>
+   
     <link rel="stylesheet" type="text/css" href="css/styles.css" >
   
   </head>
@@ -16,10 +17,10 @@
    
    @include('_nav')
 
- <div class="container">
+ 
    
         @yield('content') 
-  </div>
+
     
        <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
