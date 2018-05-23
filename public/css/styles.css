@@ -1,62 +1,119 @@
 .my-navbar
 {
-	background-color:#636;
-	color: white;
-	border:2px solid #D4D4D4;
-    border-radius:4px,4px,4px,4px;
-    padding-left:20px;
-    padding-right:20px;
-
-
+	margin-top:0;
+	width:100%;
+	/*background-color:#636;*/
+	border:0px solid #D4D4D4;
+    padding:20px;
+    height:10%;
+    font-weight: bold;
+    
 }
+body,html {
+	width:100%;
+	height:100%;
+	color:white;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 1px;
+	background-color: #f2f2f2;
 
-.dropdown-menu
-{
-  background-color:#636;
-}
-
-.dropdown-menu a{
 	
-    color: #FFFFFF;
+}
+.form-label{
+	font-family: "Raleway", sans-serif;
+	color:black;
 }
 
+.navbar-light .navbar-brand{
+	/*color:white;*/
+	font-weight: bold;
+	font-size:x-large;
 
-#textcolor
+
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link
+ {
+    /*color:#dce1e6;
+    font-weight: bold;*/
+    font-size:large;
+}
+/*button[aria-expanded="true"].navbar-brand{
+     color:blue;   
+   }*/
+/*.navbar-toggler{
+	z-index:1000;
+}*/
+/*ul{
+	margin-left:50px;
+}*/
+/*.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, .navbar-light 
+.navbar-nav .show>.nav-link {
+    color: white;
+}*/
+/*.navbar-light .navbar-nav .active>.nav-link
 {
 	color:white;
+}*/
+a{
+	color:rgba(0, 0, 0, 0.5);
+	font-size:large;
+	font-weight: bold;
 }
-.my-jumbotron
-{
-
-	height:42vh;
-	background-color-:#636;
-	background-image:url("/images/family.jpg");
+.jumbotron{
+	height:55%;
+	margin:0;
+	background-image:url("/images/family_pic1.jpg");
 	background-size:cover;
 	-webkit-background-size: cover;
 	background-position:center;
 	background-repeat:no-repeat;
-
-
-	
-}
-.mydropdown
-{
-	background-color:#636;
-	color:white;
+	transition:all 2.0s;
+	-webkit-transition :all 2.0s;
+	-moz-transition: all 2.0s;
 
 }
-.imgstyle
-{
-
-	background:url("/images/sunrise.jpg");
-	background-sixe:cover;
-	-webkit-background-size: cover;
-	background-position:center;
-	background-repeat:no-repeat;
-    opacity :0.8;
-
-	left:0;
-	right:0;
-	
-	
+.imageContainer{
+	margin-left: 10px;
 }
+.seperator{
+	border-top: 1px solid #ccc;
+}
+.login-dropdown{
+	color:rgba(0, 0, 0, 0.5);
+}
+.login-dropdown a:hover{
+    
+    display:block;
+	background-color: whitesmoke;
+	text-decoration: none;
+}
+.login-dropdown button{
+	border:none;
+	background-color: #f2f2f2;
+	color:rgba(0, 0, 0, 0.5);
+    font-size:large;
+    font-weight: bold;
+}
+.login-dropdown .icons{
+	margin-right: 10px;
+}
+/*.login-dropdown button:active{
+	background-color: #f2f2f2;
+
+}
+.logn-button:active{
+	background-color: #f2f2f2;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, 
+.btn-primary:not(:disabled):not(.disabled).active:focus, 
+.show > .btn-primary.dropdown-toggle:focus{
+	background-color: #f2f2f2;
+	color:rgba(0, 0, 0, 0.5);
+    font-size:large;
+    font-weight: bold;
+    border:none;
+}
+*/
