@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     
     <link rel="stylesheet"  href="{{ asset('/css/app.css') }}">
+
+    @yield('styles')
   
      <link rel="stylesheet" type="text/css" href="{{ asset('/css/styles.css') }}">
      <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous"> -->

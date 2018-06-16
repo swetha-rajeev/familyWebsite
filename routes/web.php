@@ -11,9 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     //return view('welcome');
+
+// });
+
+Route::get('/','PagesController@index');
 
 Auth::routes();
 
@@ -23,4 +26,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::resource('posts','PostController');
+Route::resource('/posts','PostController');
+Route::resource('/events','EventController');
+

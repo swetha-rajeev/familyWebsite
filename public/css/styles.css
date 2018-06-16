@@ -100,6 +100,27 @@ a{
 .login-dropdown .icons{
 	margin-right: 10px;
 }
+/*.fc .fc-toolbar>*>* {
+    display: none;
+}*/
+.fc-toolbar .fc-left {
+    float: right;
+}
+.fc-right{
+	display:none;
+	}
+/*.fc-toolbar .fc-center {
+    display: inline;
+}*/
+.fc-today-button{
+	display:none;
+}
+/*.fc-left{
+	display: inline;
+}
+.fc-right{
+	display:inline;
+}*/
 /*.login-dropdown button:active{
 	background-color: #f2f2f2;
 
@@ -117,3 +138,25 @@ a{
     border:none;
 }
 */
+.calendar{
+	color:rgba(0, 0, 0, 0.5);
+	background-color: #f2f2f2;
+	
+	margin:0;
+	padding-right:0px;
+
+}
+.main{
+	/*margin:10px;*/
+	/*padding-left: 5px;*/
+	width:100%;
+	max-width:80rem;
+	min-width:10rem;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:10px;
+}
+
+.images{
+	margin:0px;
+}
