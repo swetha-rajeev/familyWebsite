@@ -56,7 +56,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Timezone
+    | Application Timefalse
     |--------------------------------------------------------------------------
     |
     | Here you may specify the default timezone for your application, which

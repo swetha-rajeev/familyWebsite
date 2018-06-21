@@ -16,7 +16,7 @@
 
 // });
 
-Route::get('/','PagesController@index');
+Route::get('/','PagesController@index')->name('index');
 
 Auth::routes();
 

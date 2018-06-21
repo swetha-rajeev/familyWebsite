@@ -9,6 +9,11 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+
+// var slug = require('slug');
+// slug.defaults.modes = "rfc3986";
+// var print = console.log.bind(console, '>');
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
