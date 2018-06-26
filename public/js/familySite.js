@@ -31,6 +31,21 @@
      }
      //assignImage();
  };
+
+function index(){
+ 
+   var accordianButton = document.querySelectorAll('.accordianButton');
+// var accordianList = document.querySelector('.accordianList');
+
+   for(i=0;i<accordianButton.length;i++)
+   {
+     accordianButton[i].addEventListener('click',function(){
+     var accordianList = this.nextElementSibling;
+     accordianList.classList.toggle("is-open");
+     });
+    }
+}
+
  function slugify(text)
 {
   return text.toString().toLowerCase()
@@ -79,10 +94,24 @@ else if(window.location.pathname == '/posts/create')
 {
 
   createPost();
-
-
-
 }
+else if(window.location.pathname == '/posts')
+{
+  
+  index();
+}
+
+
+// var accordianList  = document.querySelector('.accordianList');
+// var accordianButton = document.querySelector('.accordianButton');
+// accordianButton.addEventListener('click',function(){
+// // classList.toggle("toggle");
+// alert("hai");
+// accordianList.classList.toggle("toggle");
+
+// });
+
+
 
 //  var changeBackground = function(){
 //  	//making the variables as private
